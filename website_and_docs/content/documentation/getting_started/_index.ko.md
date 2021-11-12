@@ -3,8 +3,7 @@ title: "시작하기"
 linkTitle: "시작하기"
 weight: 2
 description: >
-  If you are new to Selenium, we have a few resources that can help you get up to speed right away.
-aliases: 
+  Selenium을 처음 이용하시는 고객분께는 즉시 최신 정보를 제공해드릴 수 있는 리소스가 몇 가지 있습니다
         [
           "/documentation/ko/getting_started/", 
           "/documentation/ko/getting_started/quick/",
@@ -36,16 +35,18 @@ Selenium 프레임워크는 이 모든 부분을 하나로 묶습니다.
 
 Selenium 설치는 다른 프로젝트들과는 다를 수 있습니다. Selenium을 자동화 프로젝트에 사용하기 위해서는 당신이 선택한 언어로 바인딩된 라이브러리 설치가 필요합니다. 자동화와 테스트를 실행하기 위한 브라우저와 웹드라이버 바이너리가 추가적으로 필요합니다.
 
-Installing Selenium can be divided in three steps:
-
-1. [Installing the Selenium library]({{< ref "/installing_selenium_libraries.md" >}}) for your desired programming language
-2. [Set up the browser driver]({{< ref "/installing_browser_drivers.md" >}}) to automate your browser (e.g. GeckoDriver for Firefox)
-3. (Optional) Set up and configure [Selenium Grid]({{< ref "/grid.md" >}}) if you want to scale up your tests
-
-If you wish to start with a low-code/record and playback tool, please check 
-[Selenium IDE](https://selenium.dev/selenium-ide)
 
 After completing the setup, you can run the code snippet shown at the 
-[starting page](/ko/documentation) in our docs. Then head to the 
-[WebDriver]({{< ref "/webdriver.md" >}}) section to learn more about
+[starting page] in our docs. Then head to the 
+ section to learn more about
 browser automation with Selenium.
+
+Selenium 설치는 세 단계로 나눌 수 있습니다.
+
+1. 원하는 프로그래밍 언어로 [Selenium 라이브러리를 설치]({{< ref "/installing_selenium_libraries.md" >}})한다.
+2. 브라우저를 자동화하도록 [브라우저 드라이버를 설정]({{< ref "/installing_browser_drivers.md" >}})한다.(예: Firefox용 GeckoDriver)
+3. (선택 사항) 테스트를 확장하려면 [Selenium 그리드]({{< ref "/grid.md" >}})를 설정 및 구성.
+
+로우 코드/레코드 및 재생 도구로 시작하려면 [Selenium IDE](https://selenium.dev/selenium-ide)를 누르십시오.
+
+설정을 완료한 후 문서의 [시작 페이지](/ko/documentation) 에 표시된 코드 조각을 실행할 수 있습니다. 그런 다음 Selenium과 함께 브라우저 자동화에 대해 자세히 알아보려면 [WebDriver]({{< ref "/webdriver.md" >}})로 이동하십시오.
