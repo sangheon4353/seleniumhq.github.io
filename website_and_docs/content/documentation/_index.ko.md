@@ -6,37 +6,15 @@ cascade:
 aliases: ["/documentation/ko/"]
 ---
 
-{{% pageinfo color="warning" %}}
-<p class="lead">
-   <i class="fas fa-language display-4"></i> 
-   Page being translated from 
-   English to Korean. Do you speak Korean? Help us to translate
-   it by sending us pull requests!
-</p>
-{{% /pageinfo %}}
+Selenium은 웹 브라우저의 자동화를 지원하고 지원하는 다양한 도구와 라이브러리를 위한 우산 프로젝트입니다.
 
-Selenium es un proyecto que alberga un abanico de herramientas y librerías que
-permiten y apoyan la automatización de navegadores web.
+Selenium은 브라우저와의 사용자 상호작용을 에뮬레이트하기 위한 확장, 브라우저 할당을 확장하기 위한 배포 서버, 그리고 당신이 모든 주요 웹 브라우저에 대해 호환 가능한 코드를 작성할 수 있게 해주는 W3C 웹드라이버 규격의 구현을 위한 인프라를 제공합니다.
 
-Proporciona extensiones que permiten emular las interacciones que realizan los
-usuarios con los navegadores, un servidor que permite distribuir la asignación
-de navegadores de forma escalable, y la infraestructura necesaria para las 
-implementaciones de la [especificación del WebDriver del W3C](//www.w3.org/TR/webdriver/), 
-el cual permite escribir código intercambiable para los navegadores web mas usados.
+이 프로젝트는 수천 시간의 시간을 들여 자원 봉사자들이 만들고, 누구나 자유롭게 소스 코드를 사용하고, 즐기고, 개선할 수 있게 만들었습니다.
 
-Este proyecto es posible gracias a los colaboradores voluntarios, los cuales
-han dedicado miles de horas de su propio tiempo haciendo así que el código fuente
-esté [disponible de manera gratuita]({{< ref "/copyright_and_attributions.md#license" >}})
-para que cualquiera pueda usarlo, disfrutarlo y mejorarlo.
+Selenium은 브라우저 공급업체, 엔지니어 및 마니아를 함께 모아 웹 플랫폼의 자동화에 대한 공개 토론을 진행하고, 그 프로젝트는 지역사회를 가르치고 육성하기 위해 연례 회의를 조직합니다.
 
-Selenium conecta a proveedores de navegadores web, ingenieros y entusiastas para 
-promover un debate abierto sobre la automatización de plataformas web.
-El proyecto organiza [una conferencia anual](//seleniumconf.com/) con el fin de
-enseñar y nutrir a la comunidad.
-
-El corazón de Selenium es el [WebDriver]({{< ref "/webdriver.md" >}}), una
-interfaz que permite escribir conjuntos de instrucciones que se pueden ejecutar de
-manera indistinta en muchos navegadores.
+Selenium의 핵심에는 웹드라이버가 있는데, 웹드라이버는 많은 브라우저에서 서로 교환하여 실행할 수 있는 명령어 집합을 작성하기 위한 인터페이스다. 다음은 가장 간단한 지시사항 중 하나입니다.
 
 
 {{< tabpane langEqualsHeader=true >}}
@@ -161,11 +139,6 @@ fun main() {
 
 
 
-See the [Overview]({{< ref "/overview.md" >}}) to check the different project 
-components and decide if Selenium is the right tool for you.
+다양한 프로젝트 구성 요소를 확인하고 Selenium이 적합한 도구인지 결정하려면 [개요]({{< ref "/overview.md" >}})를 참조하십시오.
 
-You should continue on to [Getting Started]({{< ref "/getting_started.md" >}})
-to understand how you can install Selenium and successfully use it as a test 
-automation tool, and scaling simple tests like this to run in large, distributed 
-environments on multiple browsers, on several different operating systems.
-
+[시작 단계]({{< ref "/getting_started.md" >}})로 이동하여 Selenium을 설치하고 테스트 자동화 도구로 성공적으로 사용할 수 있는 방법을 이해하고 이와 같은 간단한 테스트를 여러 다른 운영 체제에서 여러 브라우저의 분산 환경에서 실행할 수 있도록 확장해야 합니다.
